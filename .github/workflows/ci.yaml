@@ -11,3 +11,5 @@ on:
 jobs:
   build:
     uses: quic-viskum/org-workflows/.github/workflows/pr.yaml@main
+    with:
+      example-input: ""
