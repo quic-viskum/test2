@@ -1,0 +1,13 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: quic-viskum/org-workflows/.github/workflows/pr.yaml@main
